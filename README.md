@@ -137,7 +137,7 @@ Positive
 
 ## Conclusion
 
-This project demonstrates how machine learning and web technologies can be combined to build a practical sentiment analysis system that provides real-time predictions.
+This project shows how we can use machine learning to automatically classify customer reviews as positive or negative. It combines text processing, a Word2Vec model, and an SVM classifier to give quick and reliable predictions. It also demonstrates how to connect a trained model with a backend and frontend for real-time use.
 
 ---
 
