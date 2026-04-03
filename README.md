@@ -141,28 +141,3 @@ This project demonstrates how machine learning and web technologies can be combi
 
 ---
 
-## Possible Questions and Answers (Viva)
-
-**1. Why did you choose SVM?**
-SVM performs well on text classification problems and provides a good balance between accuracy and speed. It also works effectively with high-dimensional data like text vectors.
-
-**2. Why did you use Word2Vec instead of TF-IDF?**
-Word2Vec captures semantic meaning of words by representing them as dense vectors, whereas TF-IDF only captures frequency. This helps the model understand context better.
-
-**3. What is Word2Vec?**
-Word2Vec is a technique that converts words into numerical vectors such that similar words have similar vector representations.
-
-**4. How did you evaluate your model?**
-I used 5-Fold Stratified Cross Validation and evaluated performance using accuracy and F1 score.
-
-**5. What is the role of FastAPI in this project?**
-FastAPI is used to create a backend API that handles requests, processes input, and returns predictions.
-
-**6. What is the role of Streamlit?**
-Streamlit is used to build the user interface where users can input reviews and view predictions.
-
-**7. What preprocessing steps did you apply?**
-Lowercasing, removing special characters, removing stopwords, and cleaning extra spaces.
-
-**8. Can this project be improved?**
-Yes, it can be improved by using deep learning models like LSTM or BERT and by adding a neutral sentiment class.
