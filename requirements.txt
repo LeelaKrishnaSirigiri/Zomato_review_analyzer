@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+requests
+numpy
+scikit-learn
+joblib
+gensim
+nltk
+pydantic
